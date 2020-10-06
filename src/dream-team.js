@@ -8,7 +8,7 @@ module.exports = function createDreamTeam(members) {
     if (typeof val === "string") {
       return val.trim()[0].toUpperCase()
     }
-  });
+  })
   const secretName = firstLettersNamesArray.sort().join("")
   return secretName
 }
