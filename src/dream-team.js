@@ -11,4 +11,4 @@ module.exports = function createDreamTeam(members) {
   })
   const secretName = firstLettersNamesArray.sort().join("")
   return secretName
-}
+};
